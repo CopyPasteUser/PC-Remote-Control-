@@ -20,12 +20,24 @@ RemotePC Control is a Python Flask API-based project combined with an Android ap
 
 ## Getting Started
 
-1. Clone the repository to your local machine.
-2. Install dependencies: `pip install -r requirements.txt`.
-3. Run the Flask API on your PC.
-4. Open the Android application on your mobile device.
-5. Scan the QR code displayed on the PC to establish connection.
-6. Enjoy remote control of your PC!
+### Flask API (Python)
+
+1. **Clone the repository:** Clone the repository to your local machine.
+2. **Navigate to the Flask API directory:** Using your terminal or command prompt, navigate to the directory containing the Flask API files.
+3. **Install Python:** If you haven't already, install Python from the [official Python website](https://www.python.org/downloads/).
+4. **Install dependencies:** Install the required Python dependencies by running the following command in your terminal:
+   ```bash
+   pip install -r requirements.txt
+
+### Android Application (Java)
+
+1. **Open Android Studio:** Open Android Studio or your preferred IDE for Android development.
+2. **Clone the repository:** Clone the repository to your local machine if you haven't already.
+3. **Import the Android project:** Import the Android project into Android Studio.
+4. **Ensure SDK components:** Ensure that you have the necessary Android SDK components installed.
+5. **Build and run:** Build and run the Android application on an emulator or a connected device.
+6. The Android application should now be running and ready to connect to the Flask API.
+
 
 ---
 
