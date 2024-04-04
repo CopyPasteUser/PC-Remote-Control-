@@ -77,16 +77,16 @@ This project is intended for educational and personal use only. Please use respo
 
 ## Authors
 
-[Your Name]
+CopyPasteUser
 
 ---
 
 ## Version History
 
-- **Version 1.0:** Initial release - (Date)
+- **Version 1.0:** Initial release - (Today)
 
 ---
 
 ## Last Updated
 
-(Date)
+(Today aswell)
