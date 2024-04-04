@@ -1,4 +1,4 @@
-#Project Name: RemotePC Control
+Project Name: RemotePC Control
 
 Introduction:
 RemotePC Control is a Python Flask API-based project combined with an Android application designed to facilitate remote control of a PC. The system allows users to control the mouse and keyboard remotely, offering dedicated modes for media applications like YouTube, Spotify, Netflix, as well as a more PC-oriented mode. Connection is established by scanning a QR code displayed on the host machine. The Flask API can be easily renamed and password protected via a user-friendly GUI. Additionally, users can transfer files between their mobile device and PC seamlessly, and capture screenshots with a simple button press.
