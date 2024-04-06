@@ -101,4 +101,4 @@ CopyPasteUser
 
 ## Last Updated
 
-(Today aswell)
+(not Today anymore)
