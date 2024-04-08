@@ -49,7 +49,7 @@ def check_and_create_json_file(default_name):
             json.dump({"device_name": default_name}, f)
 
 def onStartup():
-    main_folder = "main_folder"
+    main_folder = "data_folder"
     folders_to_check = ["for_uploads", "for_downloads", "for_screenshots"]
     
     
