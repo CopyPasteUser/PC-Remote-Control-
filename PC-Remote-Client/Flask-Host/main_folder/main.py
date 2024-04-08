@@ -44,7 +44,7 @@ def upload_file():
     if file.filename == '':
         return 'No selected file', 400
     if file:
-        filename = "main_folder//" +  UPLOAD_FOLDER + "/" + file.filename
+        filename = "data_folder//" +  UPLOAD_FOLDER + "/" + file.filename
         os.makedirs(os.path.dirname(filename), exist_ok=True)  
         file.save(filename)
         update_terminal("file uploaded")
@@ -73,7 +73,7 @@ def download_file():
 def screenshot():
     screenshot = ImageGrab.grab()
     current_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S") 
-    save_path = os.path.join("main_folder", SCREENSHOT_FOLDER, f"{current_time}.png")
+    save_path = os.path.join("data_folder//", SCREENSHOT_FOLDER, f"{current_time}.png")
     screenshot.save(save_path, "PNG")  
     update_terminal("took a screenshot")
     return "200"
@@ -83,8 +83,10 @@ def screenshot():
 
 @app.route("/downloadfolder")
 def downloadfolder():
-    folder_path = os.path.join(os.path.dirname(__file__), DOWNLOAD_FOLDER)
+    folder_path = os.path.join(os.path.dirname(__file__), "data_folder//" + DOWNLOAD_FOLDER )
     download_files = os.listdir(folder_path)
+    print(download_files)
+    print(folder_path)
     return json.dumps(download_files)  
     
         
