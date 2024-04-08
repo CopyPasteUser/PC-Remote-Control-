@@ -211,15 +211,15 @@ def create_gui(app):
     tab_control.add(files_frame, text="Files")
 
    
-    upload_button = tk.Button(files_frame, text="\U0001F4C2 Upload Folder", command=lambda: open_folder("main_folder//" +"for_uploads"), font=("Arial", 12))
+    upload_button = tk.Button(files_frame, text="\U0001F4C2 Upload Folder", command=lambda: open_folder("data_folder//" +"for_uploads"), font=("Arial", 12))
     upload_button.grid(row=0, column=0, padx=5, pady=5)
 
     
-    download_button = tk.Button(files_frame, text="\U0001F4C1 Download Folder", command=lambda: open_folder("main_folder//" +"for_downloads"), font=("Arial", 12))
+    download_button = tk.Button(files_frame, text="\U0001F4C1 Download Folder", command=lambda: open_folder("data_folder//" +"for_downloads"), font=("Arial", 12))
     download_button.grid(row=0, column=1, padx=5, pady=5)
     
     
-    download_button = tk.Button(files_frame, text="\U0001F4C1 Screenshot Folder", command=lambda: open_folder("main_folder//" +"for_screenshots"), font=("Arial", 12))
+    download_button = tk.Button(files_frame, text="\U0001F4C1 Screenshot Folder", command=lambda: open_folder("data_folder//" +"for_screenshots"), font=("Arial", 12))
     download_button.grid(row=1, column=1, padx=5, pady=5)
 
     
