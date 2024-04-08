@@ -95,10 +95,11 @@ CopyPasteUser
 
 ## Version History
 
-- **Version 1.0:** Initial release - (Today)
+- **Version 1.0:** Initial release - (not Today anymore)
+- **Version 1.1:** now with actually working file upload/download - (Today)
 
 ---
 
 ## Last Updated
 
-(not Today anymore)
+(Today)
